@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@700&display=swap');
+
+.perifericos {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Cuprum', sans-serif;
+}
+
+.imagem_departamento {
+    object-fit: cover;
+}
+
+@media screen and (min-width: 1024px)  {
+    .perifericos {
+        text-align: center;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-family: 'Cuprum', sans-serif;
+    }
+    
+    .imagem_departamento {
+        object-fit: cover;
+        width: 20%;
+    }
+}
