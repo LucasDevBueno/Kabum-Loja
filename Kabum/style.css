@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body {
+  background-color: rgb(218, 218, 218);  
+}
+
+main {
+  background-color: rgb(240, 130, 4)
+}
+
+.area_patrocinio2 {
+  display: flex;
+  justify-content: center;
+}
+
+.patrocinio2 {
+  margin: 2rem;
+  width: 1200px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+
+.flex-patrocinio {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+.tamanho_patrocinio {
+  width: 60%;
+  padding: 1rem;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+
+
+@media screen and (max-width: 375px ) {
+  .flex-patrocinio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .tamanho_patrocinio {
+    width: 80%;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  
+  .area_patrocinio2 {
+    display: flex;
+    
+  }
+  
+  .patrocinio2 {
+    margin: 2rem;
+    width: 80vw;
+    height: 50vw;
+  }
+  
+  
+
+  
+}
+
+@media screen and (max-width: 1024px ){
+.area_patrocinio2 {
+  display: flex;
+  justify-content: center;
+}
+
+.patrocinio2 {
+  margin: 2rem;
+  width: 80vw;
+  height: 50vw;
+  border-radius: 10px;
+}
+
+
+.flex-patrocinio {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+.tamanho_patrocinio {
+  width: 40%;
+  padding: 1rem;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+}

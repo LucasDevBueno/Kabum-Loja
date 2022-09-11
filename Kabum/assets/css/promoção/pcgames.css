@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+
+.imagem_promocao {
+    width: 99vw;
+    height: 32vw;
+}
+
+.background-main {
+  background-color: #fff;
+  margin: 2rem;
+  border-radius: 20px;
+  border: solid #000 1px;
+}
+
+.text_promocao {
+  font-size: 40px;
+  text-align: center;
+  padding: 2rem;
+  font-family: 'Teko', sans-serif;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+}
+
+.flex_main-produtos {
+  display: flex;
+  
+}
+
+.imagem_produto {
+  width: 50%;
+  margin-top: 2rem;
+  border-radius: 100%;
+  border: solid #000 1px;
+  object-fit: cover;
+}
+
+.descricao{
+  width: 80%;
+  margin: 1rem;
+  font-size: 20px;
+}
+
+.grid_main-produtos {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.borda-cinza {
+  background-color: #cfcdcd3b;
+  padding: 1rem;
+  border-radius: 10px;
+  border: solid #000 1px;
+  transition: all 1s;
+}
+
+.borda-cinza:hover {
+  transform: scale(1.1);
+}
+
+.preco {
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 1rem;
+}
+
+.botao_comprar-promocao{
+  width: 90%;
+  height: 40px;
+  margin-top: 1rem;
+  border: #000 solid 2px ;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ativa {
+  background-color: rgb(167, 125, 0);
+}
+
+
+.botao_comprar-promocao:hover {
+  background-color: rgb(255, 170, 13);
+}
+
+
+@media screen and (max-width: 375px) {
+  .imagem_promocao {
+    width: 99vw;
+    height: 50vw;
+}
+
+.background-main {
+  background-color: #fff;
+  margin: 1rem;
+  border-radius: 20px;
+  border: solid #000 1px;
+}
+
+.text_promocao {
+  font-size: 30px;
+  text-align: center;
+  padding: 1rem;
+  font-family: 'Teko', sans-serif;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+}
+
+.flex_main-produtos {
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.imagem_produto {
+  width: 50%;
+  margin-top: 2rem;
+  border-radius: 100%;
+  border: solid #000 1px;
+  object-fit: cover;
+}
+
+.descricao{
+  width: 80%;
+  margin: 1rem;
+  font-size: 18px;
+}
+
+.grid_main-produtos {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.borda-cinza {
+  background-color: #cfcdcd3b;
+  padding: 1rem;
+  border-radius: 10px;
+  border: solid #000 1px;
+  transition: all 1s;
+}
+
+.borda-cinza:hover {
+  transform: scale(1.1);
+}
+
+.preco {
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 1rem;
+}
+
+.botao_comprar-promocao{
+  width: 90%;
+  height: 40px;
+  margin-top: 1rem;
+  border: #000 solid 2px ;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ativa {
+  background-color: rgb(167, 125, 0);
+}
+
+
+.botao_comprar-promocao:hover {
+  background-color: rgb(255, 170, 13);
+}
+
+}
+@media screen and (max-width: 425px) {
+  .imagem_promocao {
+    width: 99vw;
+    height: 50vw;
+}
+
+.background-main {
+  background-color: #fff;
+  margin: 1rem;
+  border-radius: 20px;
+  border: solid #000 1px;
+}
+
+.text_promocao {
+  font-size: 30px;
+  text-align: center;
+  padding: 1rem;
+  font-family: 'Teko', sans-serif;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+}
+
+.flex_main-produtos {
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.imagem_produto {
+  width: 50%;
+  margin-top: 2rem;
+  border-radius: 100%;
+  border: solid #000 1px;
+  object-fit: cover;
+}
+
+.descricao{
+  width: 80%;
+  margin: 1rem;
+  font-size: 18px;
+}
+
+.grid_main-produtos {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.borda-cinza {
+  background-color: #cfcdcd3b;
+  padding: 1rem;
+  border-radius: 10px;
+  border: solid #000 1px;
+  transition: all 1s;
+}
+
+.borda-cinza:hover {
+  transform: scale(1.1);
+}
+
+.preco {
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 1rem;
+}
+
+.botao_comprar-promocao{
+  width: 90%;
+  height: 40px;
+  margin-top: 1rem;
+  border: #000 solid 2px ;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ativa {
+  background-color: rgb(167, 125, 0);
+}
+
+
+.botao_comprar-promocao:hover {
+  background-color: rgb(255, 170, 13);
+}
+
+}
+
+@media screen and (max-width: 768px) {
+  .imagem_promocao {
+    width: 99vw;
+    height: 50vw;
+}
+
+.background-main {
+  background-color: #fff;
+  margin: 2rem;
+  border-radius: 20px;
+  border: solid #000 1px;
+}
+
+.text_promocao {
+  font-size: 45px;
+  text-align: center;
+  padding: 2rem;
+  font-family: 'Teko', sans-serif;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+}
+
+.flex_main-produtos {
+  display: flex;
+  flex-direction: column;
+}
+
+.imagem_produto {
+  width: 20%;
+  margin-top: 2rem;
+  border-radius: 100%;
+  border: solid #000 1px;
+  object-fit: cover;
+}
+
+.descricao{
+  width: 75%;
+  margin: 1rem;
+  font-size: 18px;
+}
+
+.grid_main-produtos {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.borda-cinza {
+  background-color: #cfcdcd3b;
+  padding: 1rem;
+  border-radius: 10px;
+  border: solid #000 1px;
+  transition: all 1s;
+}
+
+.borda-cinza:hover {
+  transform: scale(1.1);
+}
+
+.preco {
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 1rem;
+}
+
+.botao_comprar-promocao{
+  width: 90%;
+  height: 40px;
+  margin-top: 1rem;
+  border: #000 solid 2px ;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ativa {
+  background-color: rgb(167, 125, 0);
+}
+
+
+.botao_comprar-promocao:hover {
+  background-color: rgb(255, 170, 13);
+}
+
+}
+
+@media screen and (max-width: 1024px) {
+  .preco {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 1rem;
+  }
+}
+

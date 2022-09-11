@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+.container_flex-header {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(0, 116, 151);
+    padding: 1rem;
+}
+
+.flex_input {
+    display: flex;
+    align-items: center;
+}
+
+.logo_loja {
+    width: 250px;
+}
+
+.procura_input {
+    width: 420px;
+    height: 40px;
+    margin: 1rem;
+    border: #000 solid 2px ;
+    border-radius: 5px;
+}
+
+.flex_logo {
+    display: flex;
+}
+
+.p_login {
+    font-size: 16px;
+    width: 60%;
+    padding: 1rem;
+    color: #fff;
+}
+
+.perfil_header {
+    width: 30px;
+    object-fit: contain;
+    filter: drop-shadow(2px 2px 8px rgb(255, 255, 255));
+}
+
+.flex_unicode {
+    display: flex;
+}
+
+a {
+    color: #fff;
+    font-weight: bold;
+}
+
+.decoracao_unicode {
+    text-decoration: none;
+    margin: 1rem;
+    font-size: 20px;
+}
+
+/*nav 2*/
+
+.container_novidades {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(236, 90, 6);
+    padding: 5px;
+}
+
+.item_novidades {
+    font-size: 24px;
+    margin: 4rem;
+    text-decoration: none;
+    font-family: 'Teko', sans-serif;
+    transition: all 1s;
+}
+
+.item_novidades:hover {
+    transform: scale(1.2);
+}
+
+.border_li-novidade {
+    border-left: #000 solid 2px;
+    
+}
+
+.border_li-novidade:hover {
+    background-color: rgba(192, 72, 3, 0.548);
+}
+
+
+
+@media screen and (min-width: 375px) {
+    .container_flex-header {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: rgb(0, 116, 151);
+        padding: 1rem;
+    }
+
+    .logo_loja {
+        width: 80px;
+    }
+    
+    .procura_input {
+        width: 120px;
+        height: 30px;
+        margin: 1rem;
+        border: #000 solid 2px ;
+        border-radius: 5px;
+    }
+    
+    .flex_logo {
+        display: flex;
+    }
+    
+    .p_login {
+        font-size: 15px;
+        width: 60%;
+        padding: 1rem;
+        color: #fff;
+    }
+
+    
+    .flex_unicode {
+        display: none;
+    }
+    
+    a {
+        color: #fff;
+        font-weight: bold;
+    }
+    
+    
+    /*nav 2*/
+    
+    .container_novidades {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(236, 90, 6);
+        padding: 5px;
+    }
+    
+    .item_novidades {
+        font-size: 12px;
+        margin: 10px;
+        text-decoration: none;
+        font-family: 'Teko', sans-serif;
+        transition: all 1s;
+    }
+    
+}
+
+@media screen and (min-width: 425px) {
+    .container_flex-header {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: rgb(0, 116, 151);
+        padding: 1rem;
+    }
+
+    .logo_loja {
+        width: 80px;
+    }
+    
+    .procura_input {
+        width: 120px;
+        height: 30px;
+        margin: 1rem;
+        border: #000 solid 2px ;
+        border-radius: 5px;
+    }
+    
+    .flex_logo {
+        display: flex;
+    }
+    
+    .p_login {
+        font-size: 15px;
+        width: 60%;
+        padding: 1rem;
+        color: #fff;
+    }
+
+    
+    .flex_unicode {
+        display: none;
+    }
+    
+    a {
+        color: #fff;
+        font-weight: bold;
+    }
+    
+    
+    /*nav 2*/
+    
+    .container_novidades {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(236, 90, 6);
+        padding: 5px;
+    }
+    
+    .item_novidades {
+        font-size: 12px;
+        margin: 12px;
+        text-decoration: none;
+        font-family: 'Teko', sans-serif;
+        transition: all 1s;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+
+.container_flex-header {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(0, 116, 151);
+    padding: 1rem;
+}
+
+.flex_input {
+    display: flex;
+    align-items: center;
+}
+
+.logo_loja {
+    width: 110px;
+}
+
+.procura_input {
+    width: 400px;
+    height: 40px;
+    margin: 1rem;
+    border: #000 solid 2px ;
+    border-radius: 5px;
+}
+
+.flex_logo {
+    display: flex;
+}
+
+.p_login {
+    font-size: 18px;
+    width: 60%;
+    padding: 1rem;
+    color: #fff;
+}
+
+
+.flex_unicode {
+    display: none;
+}
+
+a {
+    color: #fff;
+    font-weight: bold;
+}
+
+/*nav 2*/
+
+.container_novidades {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(236, 90, 6);
+    padding: 5px;
+}
+
+.item_novidades {
+    font-size: 19px;
+    margin: 2rem;
+    text-decoration: none;
+    font-family: 'Teko', sans-serif;
+    transition: all 1s;
+}
+
+.item_novidades:hover {
+    transform: scale(1.2);
+}
+
+.border_li-novidade {
+    border-left: #000 solid 2px;
+    
+}
+
+.border_li-novidade:hover {
+    background-color: rgba(192, 72, 3, 0.548);
+}
+}
+
+@media screen and (min-width: 1024px) {
+    .container_flex-header {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: rgb(0, 116, 151);
+        padding: 1rem;
+    }
+    
+    .flex_input {
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo_loja {
+        width: 150px;
+    }
+    
+    .procura_input {
+        width: 320px;
+        height: 40px;
+        margin: 1rem;
+        border: #000 solid 2px ;
+        border-radius: 5px;
+    }
+    
+    .flex_logo {
+        display: flex;
+    }
+    
+    .p_login {
+        font-size: 16px;
+        width: 100%;
+        padding: 1rem;
+        color: #fff;
+    }
+    
+    .perfil_header {
+        width: 30px;
+        object-fit: contain;
+        filter: drop-shadow(2px 2px 8px rgb(255, 255, 255));
+    }
+    
+    .flex_unicode {
+        display: flex;
+    }
+    
+    a {
+        color: #fff;
+        font-weight: bold;
+    }
+    
+    .decoracao_unicode {
+        text-decoration: none;
+        margin: 2rem;
+        font-size: 20px;
+    }
+    
+    /*nav 2*/
+    
+    .container_novidades {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(236, 90, 6);
+        padding: 5px;
+    }
+    
+    .item_novidades {
+        font-size: 20px;
+        margin: 2rem;
+        text-decoration: none;
+        font-family: 'Teko', sans-serif;
+        transition: all 1s;
+    }
+    
+    .item_novidades:hover {
+        transform: scale(1.2);
+    }
+    
+    .border_li-novidade {
+        border-left: #000 solid 2px;
+        
+    }
+    
+    .border_li-novidade:hover {
+        background-color: rgba(192, 72, 3, 0.548);
+    }
+    
+    
+}
+
+@media screen and (min-width: 1440px){
+    .container_flex-header {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: rgb(0, 116, 151);
+        padding: 1rem;
+    }
+    
+    .flex_input {
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo_loja {
+        width: 250px;
+    }
+    
+    .procura_input {
+        width: 420px;
+        height: 40px;
+        margin: 1rem;
+        border: #000 solid 2px ;
+        border-radius: 5px;
+    }
+    
+    .flex_logo {
+        display: flex;
+    }
+    
+    .p_login {
+        font-size: 16px;
+        width: 60%;
+        padding: 1rem;
+        color: #fff;
+    }
+    
+    .perfil_header {
+        width: 30px;
+        object-fit: contain;
+        filter: drop-shadow(2px 2px 8px rgb(255, 255, 255));
+    }
+    
+    .flex_unicode {
+        display: flex;
+    }
+    
+    a {
+        color: #fff;
+        font-weight: bold;
+    }
+    
+    .decoracao_unicode {
+        text-decoration: none;
+        margin: 1rem;
+        font-size: 20px;
+    }
+    
+    /*nav 2*/
+    
+    .container_novidades {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(236, 90, 6);
+        padding: 5px;
+    }
+    
+    .item_novidades {
+        font-size: 24px;
+        margin: 4rem;
+        text-decoration: none;
+        font-family: 'Teko', sans-serif;
+        transition: all 1s;
+    }
+    
+    .item_novidades:hover {
+        transform: scale(1.2);
+    }
+    
+    .border_li-novidade {
+        border-left: #000 solid 2px;
+        
+    }
+    
+    .border_li-novidade:hover {
+        background-color: rgba(192, 72, 3, 0.548);
+    }
+    
+}
+
+
+
