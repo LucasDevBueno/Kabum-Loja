@@ -8,3 +8,14 @@ e a segunda nav que é a de navegação do site .
 com essas codigos mais o de estilo fico desse jeito =
 
 ![navbar](https://user-images.githubusercontent.com/111455247/189560818-02503f0e-1e94-4948-987b-c6d5c15f47ba.png)
+
+com isso vamos para a promoção que segue praticamente 90% do site que é display flex , justfy-content e etc | 
+colocamos duas section dentro de uma section para ficar com espaçamento na pagina para os produtos ficarem 
+centralizados no meio e aparecer uma coloração laranja de de backgroun da pagina =
+
+
+![promoção (2)](https://user-images.githubusercontent.com/111455247/189561542-543cc52a-d332-4a9d-8be8-a0474510aa32.png)
+
+O patrocinador coloquei apenas um diplay flex simples que vai se adapatanto com os tamanhos de tela 
+
+![patrocinador](https://user-images.githubusercontent.com/111455247/189561707-a07e7aeb-f1e4-4daa-a899-76d402f58170.png)
