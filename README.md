@@ -16,6 +16,13 @@ centralizados no meio e aparecer uma coloração laranja de de backgroun da pagi
 
 ![promoção (2)](https://user-images.githubusercontent.com/111455247/189561542-543cc52a-d332-4a9d-8be8-a0474510aa32.png)
 
+codigo da promoção 
+
+![promoção codigo](https://user-images.githubusercontent.com/111455247/189561838-cb6af07c-94a7-4b34-8348-5403fd1eb29e.png)
+
+
 O patrocinador coloquei apenas um diplay flex simples que vai se adapatanto com os tamanhos de tela 
 
 ![patrocinador](https://user-images.githubusercontent.com/111455247/189561707-a07e7aeb-f1e4-4daa-a899-76d402f58170.png)
+
+Um projeto feito apenas com HTML E CSS com intuito de aperfeiçoar e dominas essas duas linguagens de programação Espero que tenha gostado.
